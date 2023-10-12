@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="nav">
+      <div id="left">
+        <img id="b" src="https://www.jiocinema.com/images/jc_logo_v2.svg" alt="">
+
+        <button id="subcribe"> subcribe</button>
+        <button id="foryou">for you</button>
+        <a href="#">sports</a>
+        <a href="#">movie</a>
+        <a href="#"> tv</a>
+        <a href="#">news</a>
+      </div>
+      <div id="right">
+        <button id="btn"> search
+          <svg width="13" height="20" viewBox="0 0 13 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M10.0935 9.76167C10.0935 11.6712 8.48161 13.2236 6.49736 13.2236C4.5131 13.2236 2.89844 11.6712 2.89844 9.76167V3.46171C2.89844 1.55222 4.5131 0 6.49736 0C8.48161 0 10.0935 1.55222 10.0935 3.46171V9.76167ZM7.24052 18.5717H10.5609C10.9731 18.5717 11.3028 18.8907 11.3028 19.286C11.3028 19.681 10.9731 20.0003 10.5609 20.0003H2.43624C2.02688 20.0003 1.69423 19.681 1.69423 19.286C1.69423 18.8907 2.02688 18.5717 2.43624 18.5717H5.75936V16.2311C2.52145 15.8741 0 13.224 0 10.017C0 9.62171 0.329722 9.30273 0.741923 9.30273C1.15128 9.30273 1.48385 9.62171 1.48385 10.017C1.48385 12.6788 3.7325 14.843 6.49851 14.843C9.26736 14.843 11.516 12.6788 11.516 10.017C11.516 9.62171 11.8486 9.30273 12.258 9.30273C12.6702 9.30273 13 9.62171 13 10.017C13 13.2265 10.4784 15.8763 7.24052 16.2311V18.5717Z"
+              fill="white" />
+          </svg>
+        </button>
+        <img
+          src="data:image/webp;base64,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"
+          alt="">
+      </div>
+    </div>
+   
+      <div class="middle">
+        <div class="box">
+          <div class="left1">
+            <h1> primer leauge highlights</h1>
+            
+            <button id="btn2">watch
+              <i class="ri-arrow-right-s-fill"></i>
+            </button>
+          </div>
+          <div class="right1">
+
+          </div>
+        </div>
+        <div class="box"> 
+          <div class="left2">
+            <h1> the daughter</h1>
+            <h5> English. drama.U/A 15+ </h5>
+            <button id="btn2">watch
+              <i class="ri-arrow-right-s-fill"></i>
+            </button>
+          </div>
+          <div class="right2">
+
+          </div>
+        </div>
+        <div class="box">
+          <div class="left3">
+            <h1> india vs austrila</h1>
+            
+            <button id="btn2">watch
+              <i class="ri-arrow-right-s-fill"></i>
+            </button>
+          </div>
+          <div class="right3">
+
+          </div>
+        </div>
+        <div class="box">
+          <div class="left4">
+            <h1> esport roadmap 2023</h1>
+            <h5> champions </h5>
+            <button id="btn2">join us
+              <i class="ri-arrow-right-s-fill"></i>
+            </button>
+          </div>
+          <div class="right4"></div>
+        </div>
+        <div class="box">
+          <div class="left5">
+            <h1> esport roadmap 2023</h1>
+            <h5> champions </h5>
+            <button id="btn2">watch now
+              <i class="ri-arrow-right-s-fill"></i>
+            </button>
+          </div>
+          <div class="right5"></div>
+        </div>
+        <div class="box">
+          <div class="left6">
+            <h1> esport roadmap 2023</h1>
+            <h5> champions </h5>
+            <button id="btn2">watch now
+              <i class="ri-arrow-right-s-fill"></i>
+            </button>
+          </div>
+          <div class="right6"></div>
+        </div>
+      </div>
+      <h1>jiocinema flim festival</h1>
+  <div class="newpage">
+      <div class="div1">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/3x4-border-1696854759854.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div1">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/bebaak-with-border-3x4-1696433058715.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div1">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/b-gg-3x4-1696327200702.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div1">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/birha-the-journey-back-home-3x4-1695989820069.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div1">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/kofuku_golden-border-3x4-1696777847830.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div1">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/mm-golden-border-3x4-1696225444281.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div1">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/phone_call_3x4-1695916688573.jpg?imformat=chrome" alt="">
+      </div>
+     <div class="div1">
+      <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/rat-in-the-kitchen-golden-border-3x4-1696174139222.jpg?imformat=chrome" alt="">
+     </div>
+    <div class="div1">
+      <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/machis_ki_dibiya_3x4-1695916596138.jpg?imformat=chrome" alt="">
+    </div>
+    <div class="div1">
+      <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/murak_3x4-1695916664508.jpg?imformat=chrome" alt="">
+    </div>
+    <div class="div1">
+      <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/dammy_3x4-1695916513048.jpg?imformat=chrome" alt="">
+    </div>
+    <div class="div1">
+      <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/roadies-3x4-1693565966596.jpg?imformat=chrome" alt="">
+    </div>
+    <div class="div1">
+      <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/udaariyaan_3x4-1695306404190.jpg?imformat=chrome" alt="">
+    </div>
+    </div>
+    <h1>best of ind vs aus</h1>
+    <div class="new1page">
+      <div class="div2">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical-1695826555421.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div2">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical_rohit-1695826634549.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div2">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_best_spells_vertical-1695817383736.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div2">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical_gill-1695555437344.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div2">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical_gill-1695555437344.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div2">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_best_spells_vertical_ash-1695577604733.jpg?imformat=chrome" alt="">
+      </div>
+      <div class="div2">
+        <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical_shreyas-1695554828409.jpg?imformat=chrome" alt="">
+      </div>
+    </div>
+  <div id="footer">
+    <div id="first">
+      <h4>jio cinma</h4>
+      <h5>for you</h5>
+      <h5>sports</h5>
+      <h5>movie </h5>
+      <h5>tv show</h5>
+    </div>
+    <div id="second">
+      <h4>support</h4>
+      <h5>help center</h5>
+      <h5>private policy</h5>
+      <h5>content complain</h5>
+      
+    </div>
+    <div id="thrid">
+      <h1>connected with us</h1>
+      <i class="ri-facebook-circle-fill"></i>
+      <i class="ri-twitter-fill"></i>
+      <i class="ri-instagram-fill"></i>
+      <i class="ri-youtube-fill"></i>
+    </div>
+    <div id="fourth">
+      <h2>download the app</h2>
+      <i class="ri-google-play-fill"></i><h4>goggle play store</h4>
+      <i class="ri-apple-fill"></i><h4>apple store</h4>
+    </div>
+  </div>
+  
+  
+</body>
+</html>

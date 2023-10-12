@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.nav{ 
+    width: 100%;
+    height: 100px;
+    background-color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    top: 0px; /* Yaad rahe ki aap top ya bottom mein fixed position de sakte hain, ispe aapki design depend karegi. */
+    left: 0;
+    z-index: 999;
+    
+}
+.nav #left{
+    width: 100vb;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: start;
+    gap: 35px;
+}
+.nav #left #b{
+    height: 30px;
+ }
+ 
+ .nav #left #subcribe{
+    padding: 8px 23px;
+    border-radius: 50px;
+    background-color: rgba(37, 37, 37, 0.724);
+    border: 1px solid rgb(230, 236, 60);
+    color: #101010c7;
+
+}
+
+.nav #left #subcribe{
+    color: rgb(245, 235, 46);
+    font-family: gilroy;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav #left #foryou{
+    padding: 12px 15px;
+    border-radius: 50px;
+    background-color: rgba(12, 10, 10, 0.803);
+    border: 1px solid rgb(255, 130, 130);
+}
+.nav #left #foryou{
+    color: white;
+    font-family: gilroy;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav #left a{
+    color: rgb(238, 233, 233);
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.nav #right{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(164, 164, 239); */
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.nav #right #btn{
+    padding: 12px 30px;
+    background-color: transparent;
+    border: 1px solid rgba(220, 218, 218, 0.861);
+    border-radius: 50px;
+    color: rgba(218, 215, 215, 0.863);    
+}
+.nav #right #btn{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    font-size: 19px;
+    
+}
+.nav #right img{
+    height: 50px;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.nav #left img{
+    height: 20px;
+}
+
+.middle{
+    width: 100%;
+    height: 85%;
+    /* background-color: rgba(12, 12, 12, 0.947); */
+    display: flex;
+    gap: 1px;
+    /* margin-top: 100px; */
+    overflow-x: auto;
+    
+}
+.middle::-webkit-scrollbar{
+    width: 10px;
+    color: aqua;
+    height: 10px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+}
+ .middle .box{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    flex-shrink: 0;
+    display: flex;
+    position: relative;
+    
+}
+ .middle .box .left1{
+    width: 35%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    align-items: start;
+    line-height: 70px;
+}
+
+.middle .box .right1{
+    height: 94%;
+    width: 65%;
+    background-image: url(https://i.ytimg.com/vi/lrA_9Lx-0nU/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 70px;
+    box-shadow:  inset 0px 80px 110px 70px rgba(11, 9, 9, 0.902);
+    position: absolute;
+    top: 20px;
+    right: 0;
+    
+}
+
+
+
+.middle .box .left1 h1{
+   color: aliceblue;
+   font-weight: 800;
+   margin-left: 20px;
+
+   } 
+#btn2{
+    padding: 10px 15px;
+    background-color: rgb(219, 29, 222);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 34px;
+}
+
+.middle .box .left2{
+    width: 35%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    align-items: start;
+    line-height: 40px;
+}
+
+.middle .box .right2{
+    height: 94%;
+    width: 65%;
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/dc71dab13752640b9751d7f56de923cba083dc4f547f1985b9112470e401df29.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 70px;
+    box-shadow:  inset 0px 80px 110px 70px rgba(11, 9, 9, 0.902);
+    position: absolute;
+    top: 20px;
+    right: 0;
+    
+}
+
+
+
+ .middle .box .left2 h1{
+   color: rgb(227, 233, 237);
+   font-weight: 800;
+   margin-left: 20px;
+
+   } 
+#btn2{
+    padding: 10px 15px;
+    background-color: rgb(219, 29, 222);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 34px;
+}    
+
+h5{
+    color: white;
+    opacity: .4;
+    margin-left: 20px;
+}
+.middle .box .left3{
+    width: 35%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    align-items: start;
+    line-height: 70px;
+}
+
+.middle .box .right3{
+    height: 94%;
+    width: 65%;
+    background-image: url(https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/02/21/894928-india-vs-australia-icc-women-s-t20i-world-cup-2020.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 70px;
+    box-shadow:  inset 0px 80px 110px 70px rgba(11, 9, 9, 0.902);
+    position: absolute;
+    top: 20px;
+    right: 0;
+    
+}
+
+
+
+ .middle .box .left3 h1{
+   color: aliceblue;
+   font-weight: 800;
+   margin-left: 20px;
+
+   } 
+#btn2{
+    padding: 10px 15px;
+    background-color: rgb(219, 29, 222);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 34px;
+}
+  
+.middle .box .left4{
+    width: 35%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    align-items: start;
+    line-height: 40px;
+}
+
+.middle .box .right4{
+    height: 94%;
+    width: 65%;
+    background-image: url(https://lh4.googleusercontent.com/eC-qLbO7hFojh32PaokSr5jxDQ2YSu_SRE8HLs-ucasdSch2EKNBmePbrwKNOzJnOoAjkBqq8TmHZLG39cJw00rj9E9WHLoRBr-JRuWugkZOapZpbOLelTqU0MQbIQa66OqxNSVJLKCGipkqAh1lAIM);
+    background-size: cover;
+    background-position: center;
+    border-radius: 70px;
+    box-shadow:  inset 0px 80px 110px 70px rgba(11, 9, 9, 0.902);
+    position: absolute;
+    top: 20px;
+    right: 0;
+    
+}
+
+
+
+ .middle .box .left4 h1{
+   color: rgb(227, 233, 237);
+   font-weight: 800;
+   margin-left: 20px;
+
+   } 
+#btn2{
+    padding: 10px 15px;
+    background-color: rgb(219, 29, 222);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 34px;
+}    
+
+h5{
+    color: white;
+    opacity: .8;
+    margin-left: 20px;
+}
+
+.middle .box .left5{
+    width: 35%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    align-items: start;
+    line-height: 40px;
+}
+
+.middle .box .right5{
+    height: 94%;
+    width: 65%;
+    background-image: url(https://akm-img-a-in.tosshub.com/aajtak/images/story/202204/sanjay_dutt_kgf_chapter_2-sixteen_nine.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 70px;
+    box-shadow:  inset 0px 80px 110px 70px rgba(11, 9, 9, 0.902);
+    position: absolute;
+    top: 20px;
+    right: 0;
+    
+}
+
+
+
+ .middle .box .left5 h1{
+   color: rgb(227, 233, 237);
+   font-weight: 800;
+   margin-left: 20px;
+
+   } 
+#btn2{
+    padding: 10px 15px;
+    background-color: rgb(219, 29, 222);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 34px;
+}
+.middle .box .left6{
+    width: 35%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    align-items: start;
+    line-height: 40px;
+}
+
+.middle .box .right6{
+    height: 94%;
+    width: 65%;
+    background-image: url(https://c.ndtvimg.com/2022-08/q47fln1_rrr_625x300_01_August_22.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 70px;
+    box-shadow:  inset 0px 80px 110px 70px rgba(11, 9, 9, 0.902);
+    position: absolute;
+    top: 20px;
+    right: 0;
+    
+}
+
+
+
+ .middle .box .left6 h1{
+   color: rgb(227, 233, 237);
+   font-weight: 800;
+   margin-left: 20px;
+
+   } 
+#btn2{
+    padding: 10px 15px;
+    background-color: rgb(219, 29, 222);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 34px;
+}
+
+.newpage{
+    width: 100%;
+    height: 35%;
+    /* background-color: rgba(15, 15, 15, 0.947);  */
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    overflow-x: auto;
+
+}
+.newpage::-webkit-scrollbar{
+    display: none;
+}
+.newpage .div1{
+    height: 255px;
+    flex-shrink: 0;
+    position: relative;
+    width: 200px;
+    /* background-color: rgb(94, 233, 98); */
+  } 
+  
+.newpage .div1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}  
+h1{
+    color: rgb(95, 148, 212);
+}
+.new1page{
+    width: 100%;
+    height: 40%;
+    /* background-color: rgba(15, 15, 15, 0.947);  */
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+.new1page .div2{
+    height: 265px;
+    flex-shrink: 0;
+    position: relative;
+    width: 200px;
+    background-color: rgb(94, 233, 98);
+    border-radius: 20px;
+    overflow: hidden;
+  } 
+  
+.new1page .div2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}  
+h1{
+    color: rgb(95, 148, 212);
+}
+#footer{
+    width: 100%;
+    height: 20%;
+    background-color: #4a4a4ac7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#footer h5{
+    opacity: .6;
+  
+}
+#footer h4{
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+#footere #thrid{
+    display: flex;
+    flex-direction: column;
+    line-height: 90px;
+}
